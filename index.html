@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Ekta Parmar</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!--Style sheets-->
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<!--Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Muli:400,500,600,700,800|Roboto+Slab&display=swap" rel="stylesheet">
+
+	<!--font-awesome icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+	<div>
+		<div id="home" class="section">
+			<div class="canvas">
+				<div id="particles-js"></div>
+			</div>
+			<div id="">
+				<div id="navbar" class="navbar-vert" data-aos="fade-left" data-aos-delay="300">
+					<div class="verticle-line"></div>
+					<a class="nav-link" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+					<a class="nav-link" href="#about"><i class="fa fa-user" aria-hidden="true"></i></i></a>
+					<a class="nav-link" href="#projects"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+					<a class="nav-link" href="#contact"><i class="fa fa-address-book-o" aria-hidden="true"></i></a>
+					<a class="nav-menu" href="javascript:void(0);" onclick="menuOnClick()">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+				</div>
+
+			</div>
+			<div class="canvas-text" data-aos="fade">
+				<div class="canvas-text-wrapper">
+					<div>
+						<p class="canvas-text-small">Hi, I am</p>
+						<p class="canvas-text-title">Ekta Parmar.</p>
+						<p class="canvas-text-subtitle">I build things for the web.</p>
+					</div>
+					<div class="canvas-text-button">
+						Explore &darr;
+					</div>
+				</div>
+
+			</div>
+			<div class="contact-links" data-aos="fade-right" >
+				<a href="mailto:ektap.098@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="https://github.com/neon98"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/ekta98/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a href="https://codepen.io/ekta98"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/blablablaa"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<div class="verticle-line"></div>
+			</div>
+		</div>
+		<div class="main-container">
+
+			<div id="about" class="section">
+				<div class="section-title" data-aos="fade-in">
+					<div class="horizontal-line"></div>
+					<div class="section-title-text">
+						About
+					</div>
+					<div class="horizontal-line"></div>
+				</div>
+				<div class="about-content">
+					<a href="https://github.com/neon98">
+						<div class="about-content-image-wrapper" data-aos="fade">
+							<div class="about-content-image-border"></div>
+							<div class="about-content-image-cover"></div>
+							<img src="images/intro-image.jpg" class="about-content-image" />
+						</div>
+					</a>
+					<div class="about-content-text-wrapper" data-aos="fade" data-aos-delay="300">
+						<p class="about-content-text">
+							I am a Software Engineer at <span class="highlight">Amadeus</span> in Bengalore, India. I
+							spend
+							most of my time working on different areas of web development from
+							<span class="highlight">front-end</span> programming ( HTML, CSS, JavaScript, React, Angular
+							)
+							to
+							<span class="highlight">back-end</span> programming ( Flask / Python, Node.js ). <br />
+							When I am not coding, I am thinking about dogs or wondering what
+							they must be thinking about or just appreciating their existance.
+							I also enjoy taking photographs & reading poetry.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="projects" class="section" >
+				<div class="section-title" data-aos="fade-in">
+					<div class="horizontal-line"></div>
+					<div class="section-title-text">
+						Projects
+					</div>
+					<div class="horizontal-line"></div>
+				</div>
+				<div class="projects-content">
+					<div class="project-card">
+						<div class="project-card-text" data-aos="fade" data-aos-delay="200">
+							<p class="project-card-text-title">
+								<span>Goodest Bois</span>
+								<span class="project-card-text-links"   data-aos="fade" data-aos-delay="400">
+									<a href="https://github.com/neon98/GoodestBois">
+										<i class="fa fa-github" aria-hidden="true"></i>
+									</a>
+									<a href="https://doggosite-c64bf.web.app/">
+										<i class="fa fa-external-link" aria-hidden="true"></i>
+									</a>
+								</span>
+							</p>
+							<p class="project-card-text-description" style="margin: 0;">
+								A social networking web application for dog lovers / owners
+								where they can create their dog's profile, upload photos and
+								give Pat / Treat / Boop on the posts.
+							</p>
+							<p class="project-card-text-tech-stack">
+								<span>React.js</span>
+								<span>Firebase</span>
+							</p>
+						</div>
+						<div class="project-card-image-wrapper" data-aos="fade" data-aos-delay="400">
+							<div class="project-card-image-border"></div>
+							<div class="project-card-image-cover"></div>
+							<img class="project-card-image" src="images/project-1.png" alt="" />
+						</div>
+					</div>
+					<div class="project-card-reversed">
+						<div class="project-card-image-wrapper" data-aos="fade" data-aos-delay="500">
+							<div class="project-card-image-border"></div>
+							<div class="project-card-image-cover"></div>
+							<img class="project-card-image" src="images/project-2.png" alt="" />
+						</div>
+						<div class="project-card-text-reversed" data-aos="fade" data-aos-delay="800">
+							<p class="project-card-text-title-reversed">
+								<span>Random Quotes</span>
+								<span class="project-card-text-links" data-aos="fade" data-aos-delay="1000">
+									<a href="https://codepen.io/ekta98/full/PzjLzq"><i class="fa fa-codepen" aria-hidden="true"></i> </a>
+								</span>
+							</p>
+							<p class="project-card-text-description" style="margin: 0;">
+								A simple web application which generates random quotes
+								by calling a third-party API
+								and allows to tweet them.
+							</p>
+							<p class="project-card-text-tech-stack-reversed">
+								<span>jQuery</span>
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contact" class="section">
+				<div class="section-title" data-aos="fade-in">
+					<div class="horizontal-line"></div>
+					<div class="section-title-text">
+						Contact
+					</div>
+					<div class="horizontal-line"></div>
+				</div>
+				<div class="contact-text" data-aos="fade" data-aos-delay="200">
+					<p>
+						<span style="color: var(--primary-color);">Want to get in touch?</span></br>
+						Be it to request more information about myself or my experience,
+						to ask for my resume...
+						feel free to drop me a line anytime.
+					</p>
+				</div>
+				<div class="contact-links-container" >
+					<a href="mailto:ektap.098@gmail.com" data-aos="fade" data-aos-delay="100"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+					<a href="https://github.com/neon98" data-aos="fade" data-aos-delay="200"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/ekta98/" data-aos="fade" data-aos-delay="300"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="https://codepen.io/ekta98" data-aos="fade" data-aos-delay="400"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/blablablaa" data-aos="fade" data-aos-delay="500"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<!-- <a href="https://www.instagram.com/ekta_98/"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+				</div>
+			</div>
+			<footer>
+				Made with <i class="fa fa-heart" aria-hidden="true"></i> and
+				<i class="fa fa-music" by aria-hidden="true"></i> by Ekta Parmar
+			</footer>
+		</div>
+
+
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+	<script type="text/javascript" src="js/scrollAnimations.js"></script>
+	<script type="text/javascript" src="js/scrollspy.js"></script>
+	<script type="text/javascript" src="js/particles.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
+	
+</body>
+
+</html>
